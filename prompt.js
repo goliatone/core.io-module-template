@@ -26,7 +26,16 @@ let questions = [
             return slug(answer.name);
         },
         message: 'What\'s the module\'s name?'
+    },
+    {
+        type: 'input',
+        name: 'descripton',
+        default: function(answer) {
+            return 'core.io module';
+        },
+        message: 'Description of the project'
     }
+    //TODO: Want to enter a list of packages as dependencies?
 ];
 
 module.exports = questions;
