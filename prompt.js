@@ -34,6 +34,11 @@ let questions = [
             return 'core.io module';
         },
         message: 'Description of the project'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?'
     }
     //TODO: Want to enter a list of packages as dependencies?
 ];
