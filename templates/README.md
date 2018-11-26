@@ -1,8 +1,15 @@
 ## %{name}%
 
-This is a sample project. To get started:
+%{description}%
+
+This package provides a module for the [core.io][core.io] library.
+
+[core.io]: https://npmjs.com/package/core.io
+
+### Install
+
 ```
-$ npm i %{name}%
+$ npm i -S %{name}%
 ```
 
 ## License
