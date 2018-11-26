@@ -9,7 +9,7 @@ This package provides a module for the [core.io][core.io] library.
 ### Install
 
 ```
-$ npm i -S %{name}%
+$ npm i -S %{moduleName}%
 ```
 
 ## License
