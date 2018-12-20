@@ -1,5 +1,5 @@
 {
-  "name": "%{name}%",
+  "name": "%{moduleName}%",
   "version": "0.0.0",
   "description": "%{descripton}%",
   "main": "index.js",
