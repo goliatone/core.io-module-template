@@ -1,13 +1,26 @@
 'use strict';
 
 const extend = require('gextend');
-const DEFAULTS = require('./defaults');
-
+const defaults = require('./defaults');
 
 class Module {
-    constructor(config) {
+    constructor(config = {}) {
+        config = extend({}, this.constructor.defaults, config);
 
+        if (config.autoinitialize) {
+            this.init(config);
+        }
+    }
+
+    init(config = {}) {
+        if (this.initialized) return;
+        this.initialized = true;
+
+        extend(this, config);
+        extend.unsim(this);
     }
 }
+
+Module.defaults = defaults;
 
 module.exports = Module;
