@@ -6,6 +6,6 @@ const sinon = require('sinon');
 const Module = require('../lib')['%{moduleName}%'];
 
 test('Module should be bootstraped OK', t => {
-    t.ok(Module());
+    t.ok(new Module());
     t.end();
 });
