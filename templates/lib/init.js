@@ -1,12 +1,12 @@
 'use strict';
 
-const Module = require('./#moduleName#');
+const Module = require('./%{moduleName}%');
 
 module.exports = function $init(context, config) {
 
-    var _logger = context.getLogger('#moduleName#');
+    var _logger = context.getLogger('%{moduleName}%');
 
-    _logger.info('#moduleName# module booting...');
+    _logger.info('%{moduleName}% module booting...');
 
     return new Promise(function(resolve, reject) {
         context.resolve({});
