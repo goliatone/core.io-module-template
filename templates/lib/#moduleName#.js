@@ -17,7 +17,7 @@ class Module {
         this.initialized = true;
 
         extend(this, config);
-        extend.unsim(this);
+        extend.unshim(this);
     }
 }
 
