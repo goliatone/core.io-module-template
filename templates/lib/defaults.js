@@ -4,5 +4,5 @@ const extend = require('gextend');
 
 module.exports = {
     autoinitialize: true,
-    logger: extend.sim(console)
+    logger: extend.shim(console)
 };
