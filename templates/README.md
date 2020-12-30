@@ -13,4 +13,5 @@ $ npm i -S %{moduleName}%
 ```
 
 ## License
-® License %{license}% by %{git.name}%
+
+® License %{license}% %{date.year}% by %{git.name}%
