@@ -32,6 +32,6 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "gextend": "^0.6.0"
+    "gextend": "*"
   }
 }
