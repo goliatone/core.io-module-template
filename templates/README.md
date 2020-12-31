@@ -2,9 +2,7 @@
 
 %{description}%
 
-This package provides a module for the [core.io][core.io] library.
-
-[core.io]: https://npmjs.com/package/core.io
+This package provides a module for the [core.io](https://npmjs.com/package/core.io) library.
 
 ### Install
 
